@@ -1,8 +1,9 @@
 #include <iostream>
 #include "carre.h"
+using namespace std;
 
 int main() 
 {
-	using namespace std; 
-
+	CCarre a;
+	a.Afficher();
 }

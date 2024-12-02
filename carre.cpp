@@ -19,6 +19,7 @@ void CCarre::Setcote(int cote1)
 
 void CCarre::Afficher()
 {
+	cout << "Test" << endl;
 	std::cout << sx << sy << cote << endl;
 }
 
