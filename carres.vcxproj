@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="carre.cpp" />
     <ClCompile Include="mcarre.cpp" />
   </ItemGroup>
   <ItemGroup>
