@@ -1,4 +1,6 @@
 #include "carre.h"
+#include <iostream>
+using namespace std;
 
 void CCarre::Setsx(int sx1)
 {
@@ -7,15 +9,17 @@ void CCarre::Setsx(int sx1)
 
 void CCarre::Setsy(int sy1)
 {
-	this->sy1 = sy; 
+	this->sy = sy1; 
 }
 
 void CCarre::Setcote(int cote1)
 {
+	this->cote = cote1; 
 }
 
 void CCarre::Afficher()
 {
+	std::cout << sx << sy << cote << endl;
 }
 
 
