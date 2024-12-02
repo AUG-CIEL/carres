@@ -7,6 +7,7 @@ void CCarre::Setsx(int sx1)
 
 void CCarre::Setsy(int sy1)
 {
+	this->sy1 = sy; 
 }
 
 void CCarre::Setcote(int cote1)
